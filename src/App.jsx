@@ -1,5 +1,9 @@
 import React from 'react'
-import image from "../image/amazon1.png"
+import image from "../image/slack.png"
+import haleemah from "../image/discord.png"
+import roqeeb from "../image/git.png"
+import zainab from "../image/amazon1.png"
+
 import HeroSection from "./components/HeroSection"
 import Thanks from "./components/Thanks"
 
@@ -15,9 +19,9 @@ export default function App() {
       />
 
       <HeroSection 
-        name= "Tijani Abdullah Adebukola"
-        image= {image}
-        link= "https://my-react-app-d8cf.vercel.app/"
+        name= "Olaniyan Haleemah Abiona"
+        image= {haleemah}
+        link= "https://discord-gold-nine.vercel.app/"
       />
 
       
@@ -25,16 +29,36 @@ export default function App() {
 
     <div className='flex flex-col gap-10 md:flex-row md:gap-20 justify-center '>
       <HeroSection 
-        name= "Tijani Abdullah Adebukola"
-        image= {image}
-        link= "https://my-react-app-d8cf.vercel.app/"
+        name= "Sharifiyu Roqeeb Taiwo"
+        image= {roqeeb}
+        link= "https://roqeeb-dev.github.io/github-clone/"
       />
 
       <HeroSection 
-        name= "Tijani Abdullah Adebukola"
-        image= {image}
-        link= "https://my-react-app-d8cf.vercel.app/"
+        name= "Abdulganiyu Zainab Ometere"
+        image= {zainab}
+        link= "https://amazonclone-self-ten.vercel.app/"
       />
+
+      
+      
+      
+    </div>
+
+    <div className='flex flex-col gap-10 md:flex-row md:gap-20 justify-center '>
+      <HeroSection 
+        name= "Sharifiyu Roqeeb Taiwo"
+        image= {roqeeb}
+        link= "https://roqeeb-dev.github.io/github-clone/"
+      />
+
+      <HeroSection 
+        name= "Abdulganiyu Zainab Ometere"
+        image= {zainab}
+        link= "https://amazonclone-self-ten.vercel.app/"
+      />
+
+      
       
       
     </div>
