@@ -1,5 +1,5 @@
 import React from 'react'
-import image from "../src/assets/hero-card-images/amazon1.png"
+import image from "../image/amazon1.png"
 import HeroSection from "./components/HeroSection"
 import Thanks from "./components/Thanks"
 
@@ -10,13 +10,13 @@ export default function App() {
     <div className='flex flex-col gap-10 md:flex-row md:gap-20 justify-center '>
       <HeroSection 
         name= "Tijani Abdullah Adebukola"
-        Image= {image}
+        image= {image}
         link= "https://my-react-app-d8cf.vercel.app/"
       />
 
       <HeroSection 
         name= "Tijani Abdullah Adebukola"
-        Image= "src//assets/hero-card-images/amazon1.png"
+        image= {image}
         link= "https://my-react-app-d8cf.vercel.app/"
       />
 
@@ -26,13 +26,13 @@ export default function App() {
     <div className='flex flex-col gap-10 md:flex-row md:gap-20 justify-center '>
       <HeroSection 
         name= "Tijani Abdullah Adebukola"
-        Image= "src//assets/hero-card-images/amazon1.png"
+        image= {image}
         link= "https://my-react-app-d8cf.vercel.app/"
       />
 
       <HeroSection 
         name= "Tijani Abdullah Adebukola"
-        Image= "src//assets/hero-card-images/amazon1.png"
+        image= {image}
         link= "https://my-react-app-d8cf.vercel.app/"
       />
       
